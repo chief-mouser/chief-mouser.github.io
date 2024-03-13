@@ -1,0 +1,17 @@
+# Site settings
+title: Laura Fung
+# tag_text: 
+# description: Biscuit is a single-page responsive Jekyll theme. This is the most simple and still-good-looking Jekyll theme that you can find.
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://chief-mouser.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md", "how-to.md"]
+sass:
+  style: compressed
+avatar: "true"
+name: "Laura Fung"
