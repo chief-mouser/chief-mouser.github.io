@@ -11,16 +11,6 @@
 </head>
 <body>
   <div class="container">
-    <!-- Inserted code chunk starts here -->
-    <div class="wrapper">
-      <header class="page-header">
-        {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
-        {% endif %}
-        <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
-      </header>
-    </div>
-    <!-- Inserted code chunk ends here -->
     {{ content }}
   </div>
 {% include scripts.html %}
